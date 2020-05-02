@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{537BF8AE-AC7B-47FA-A8B2-21D74FA9C80C}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>StupidBDWebApp</RootNamespace>
+    <AssemblyName>StupidBDWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Users\Zeina Kandil\Downloads\Milestone 3-20200502T102532Z-001\Milestone 3\StupidBDWebApp\StupidBDWebApp\Backup\</UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="master.master" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Wishlist.aspx" />
+    <Content Include="Hello_Admin.aspx" />
+    <Content Include="Calendar.aspx" />
+    <Content Include="EmptyJSFile.js" />
+    <Content Include="All_Orders.aspx" />
+    <Content Include="Products.aspx" />
+    <Content Include="All_Products.aspx" />
+    <Content Include="Hello_Customer.aspx" />
+    <Content Include="Today_s_Deals.aspx" />
+    <Content Include="Hello_Delivery_Person.aspx" />
+    <Content Include="My_Orders.aspx" />
+    <Content Include="Hello_Vendor.aspx" />
+    <Content Include="Offers.aspx" />
+    <Content Include="edit.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master.master.cs">
+      <DependentUpon>master.master</DependentUpon>
+    </Compile>
+    <Compile Include="master.master.designer.cs">
+      <DependentUpon>master.master</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wishlist.aspx.cs">
+      <DependentUpon>Wishlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wishlist.aspx.designer.cs">
+      <DependentUpon>Wishlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Admin.aspx.cs">
+      <DependentUpon>Hello_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Admin.aspx.designer.cs">
+      <DependentUpon>Hello_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.aspx.designer.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="All_Orders.aspx.cs">
+      <DependentUpon>All_Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="All_Orders.aspx.designer.cs">
+      <DependentUpon>All_Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="All_Products.aspx.cs">
+      <DependentUpon>All_Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="All_Products.aspx.designer.cs">
+      <DependentUpon>All_Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Customer.aspx.cs">
+      <DependentUpon>Hello_Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Customer.aspx.designer.cs">
+      <DependentUpon>Hello_Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Today_s_Deals.aspx.cs">
+      <DependentUpon>Today_s_Deals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Today_s_Deals.aspx.designer.cs">
+      <DependentUpon>Today_s_Deals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Delivery_Person.aspx.cs">
+      <DependentUpon>Hello_Delivery_Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Delivery_Person.aspx.designer.cs">
+      <DependentUpon>Hello_Delivery_Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My_Orders.aspx.cs">
+      <DependentUpon>My_Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My_Orders.aspx.designer.cs">
+      <DependentUpon>My_Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Vendor.aspx.cs">
+      <DependentUpon>Hello_Vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hello_Vendor.aspx.designer.cs">
+      <DependentUpon>Hello_Vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Offers.aspx.cs">
+      <DependentUpon>Offers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Offers.aspx.designer.cs">
+      <DependentUpon>Offers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v16.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>
